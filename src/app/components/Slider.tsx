@@ -51,15 +51,7 @@ const TestimonialCarousel = () => {
   const [fadeOpacity, setFadeOpacity] = useState(1);
   const [autoplayInterval, setAutoplayInterval] = useState<NodeJS.Timeout | null>(null);
 
-  const scrollPrev = useCallback(() => {
-    if (emblaApi) {
-      setFadeOpacity(0);
-      setTimeout(() => {
-        emblaApi.scrollPrev();
-        setFadeOpacity(1);
-      }, 1500);
-    }
-  }, [emblaApi]);
+  
 
   const scrollNext = useCallback(() => {
     if (emblaApi) {
