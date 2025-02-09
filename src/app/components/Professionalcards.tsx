@@ -23,11 +23,11 @@ const ProfessionalCards = () => {
 
   return (
     <div>
-      <p className='flex flex-col justify-center items-center mt-20 text-[40px]'>
+      <p className=' w-full lg:flex flex-col justify-center items-center mt-20 text-[40px]'>
         Training development
         <div className='bg-yellow-400 h-1 w-[160px]'></div>
       </p>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 p-20 shadow-2xl">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4  shadow-2xl">
         {cardData.map((card, index) => (
           <Card key={index} className="hover: transition-shadow">
             <CardHeader>
