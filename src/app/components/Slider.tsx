@@ -1,10 +1,6 @@
 'use client'
 import React, { useCallback, useEffect, useState } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
-import { useAuthState } from 'react-firebase-hooks/auth';
-import { auth } from '@/app/components/firebase/config';
-import { useRouter } from 'next/navigation';
-import { signOut } from 'firebase/auth';
 import Image from 'next/image';
 import MouthwateringMeals from './Mouthwatering'; 
 
@@ -47,15 +43,9 @@ const TestimonialCarousel = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
   const [fadeOpacity, setFadeOpacity] = useState(1);
   const [autoplayInterval, setAutoplayInterval] = useState<NodeJS.Timeout | null>(null);
-  const [user] = useAuthState(auth);
-  const router = useRouter();
-  const userSession = sessionStorage.getItem('user');
+  
 
-  useEffect(() => {
-    if (!user && !userSession) {
-      router.push('/sign-in');
-    }
-  }, [user, userSession, router]);
+ 
 
   const scrollNext = useCallback(() => {
     if (emblaApi) {
@@ -89,12 +79,7 @@ const TestimonialCarousel = () => {
 
   return (
     <div>
-      <button onClick={() => {
-        signOut(auth);
-        sessionStorage.removeItem('user');
-      }}>
-        Log out
-      </button>
+      
 
       {/* Container for carousel and MouthwateringMeals */}
       <div className='flex flex-col lg:flex-row'>
