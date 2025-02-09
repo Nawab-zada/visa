@@ -20,7 +20,7 @@ const ProfessionalCards = () => {
       imageUrl: "/033.webp"
     }
   ];
-
+  
   return (
     <div>
       <p className=' w-full lg:flex flex-col justify-center items-center mt-20 text-[40px]'>
