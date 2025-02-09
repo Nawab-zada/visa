@@ -134,7 +134,7 @@ const TestimonialCarousel = () => {
     }
   };
   return (
-    <>
+    <div className=''>
 
 
     <div>
@@ -145,14 +145,16 @@ const TestimonialCarousel = () => {
         Log out
       </button>
     </div>
+    {/* div for both the carousel and moutwatering */}
+    <div className='flex flex-col  lg:flex-row  '>
     <div 
-     
-         
-      className="relative mx-auto px-4 py-12 flex    lg:flex bg-blue-800 h-[800px] "
+      
+      className="relative mx-auto h-[500px] w-full   flex  bg-blue-800 lg:h-[800px] lg:py-11 "
       onMouseEnter={stopAutoplay}
       onMouseLeave={startAutoplay}
     >
-      <div className="overflow-hidden w-[800px]  " ref={emblaRef}>
+      
+      <div className="overflow-hidden w-[450px] lg:w-[800px]  " ref={emblaRef}>
         <div className="flex">
           {testimonials.map((testimonial) => (
             <div
@@ -172,36 +174,20 @@ const TestimonialCarousel = () => {
                 
                
               </div>
-              <div className="flex ml-[320px] mt-6 gap-3 ">
-        {testimonials.map((_, index) => (
-          <button
-            key={index}
-            className={`w-3 h-3 rounded-full   ${
-              index === selectedIndex 
-                ? 'bg-black w-6' 
-                : 'bg-black hover:bg-gray-400'
-            }`}
-            onClick={() => {
-              if (emblaApi) {
-                setFadeOpacity(0);
-                setTimeout(() => {
-                  emblaApi.scrollTo(index);
-                  setFadeOpacity(1);
-                }, 500);
-              }
-            }}
-          />
-        ))}
-      </div>
+              
             </div>
           ))}
         </div>
        
       </div>
 
-     
-      <MouthwateringMeals/>
-    </div></>
+      
+      
+    </div>
+    <MouthwateringMeals/>
+    </div>
+    
+    </div>
   );
 };
 

@@ -65,14 +65,14 @@ const FeatureCards = () => {
         <div key={index} className="bg-blue-500 text-white   p-6 w-[400px] h-[250px]">
           <div className="flex items-center mb-4">
             {feature.icon}
-            <h3 className="text-xl font-bold">{feature.title}</h3>
+            <h3 className="text-xl font-bold p-6">{feature.title}</h3>
           </div>
-          <p>{feature.description}</p>
+          <p className='p-8'>{feature.description}</p>
         </div>
       ))}
       
     </div>
-    <div className='flex justify-center items-center text-[35px]'>Almarai Company Visa 2024 - Almarai Jobs Saudi Arabia, Canada 2024</div>
+    <div className='flex justify-center items-center p-8 mx-3 w-full lg:w-full lg:text-[35px]'>Almarai Company Visa 2024 - Almarai Jobs Saudi Arabia, Canada 2024</div>
     </>
   );
 };

@@ -29,7 +29,7 @@ const ProfessionalCards = () => {
                     
                     ></div>
                 </p>
-    <div className="grid grid-cols-3 gap-4 p-20 shadow-2xl">
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 p-20 shadow-2xl">
       {cardData.map((card, index) => (
         <Card key={index} className="hover: transition-shadow">
           <CardHeader>
@@ -40,7 +40,7 @@ const ProfessionalCards = () => {
             <img 
               src={card.imageUrl} 
               alt={card.description} 
-              className="w-full h-[300px] object-cover p-3 rounded-2xl  mb-2"
+              className="w-full h-[300px] object-cover  lg:p-3 rounded-2xl  mb-2"
             /></div>
            
           </CardContent>
