@@ -4,7 +4,7 @@ import useEmblaCarousel from 'embla-carousel-react';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { auth } from '@/app/components/firebase/config';
 import { useRouter } from 'next/navigation';
-import { signOut, signInWithEmailAndPassword } from 'firebase/auth';
+import { signOut,  } from 'firebase/auth';
 import Image from 'next/image';
 import MouthwateringMeals from './Mouthwatering';
 
