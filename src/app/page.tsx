@@ -1,5 +1,5 @@
 
-import Image from "next/image";
+
 import TestimonialCarousel from "./components/Slider";
 import FeatureCards from "./components/Featurescard";
 import RecruitmentProcess from "./components/Recuritment";
@@ -15,7 +15,6 @@ export default function Home() {
   return (
     
     <div>
-     
       <TestimonialCarousel/>
       <Almaricarer/>
       <FeatureCards/>
@@ -24,8 +23,7 @@ export default function Home() {
       <Almaria/>
       <Almarias/>
       <ProfessionalCards/>
-      <Footer/>
-       
+      <Footer/> 
     </div>
   );
 }
