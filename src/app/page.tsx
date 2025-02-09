@@ -9,6 +9,7 @@ import Almaria from "./components/W-almaria";
 import Almarias from "./components/Gallery";
 import ProfessionalCards from "./components/Professionalcards";
 import Footer from "./components/Footer";
+import StickyApplyButton from "./components/StickyApplyButton";
 
 export default function Home() {
  
@@ -24,6 +25,7 @@ export default function Home() {
       <Almarias/>
       <ProfessionalCards/>
       <Footer/> 
+      <StickyApplyButton/>
     </div>
   );
 }
