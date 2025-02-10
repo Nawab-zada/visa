@@ -46,7 +46,7 @@ export default function Jobs() {
     try {
       await sendEmail(job.ownerEmail, job); // Send email to job owner
       alert(`Application for ${job.title} has been sent!`);
-    } catch (error) {
+    } catch (_error) { 
       alert("Error sending email. Please try again.");
     }
 
@@ -91,9 +91,8 @@ export default function Jobs() {
             onChange={(e) => setOwnerEmail(e.target.value)}
             required
             className="p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-            
           />
-          <p>owner email: almaraicompany41gmail.com</p>
+          <p>Owner email: almaraicompany41@gmail.com</p>
           <button
             type="submit"
             className="bg-blue-600 text-white p-3 rounded-md hover:bg-blue-700 transition"
@@ -140,4 +139,3 @@ export default function Jobs() {
     </div>
   );
 }
-
