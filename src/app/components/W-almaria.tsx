@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const Almaria= () => {
   return (
-    <div className='flex flex-col lg:flex-row min-w-[500px] '>
+    <div className='flex flex-col lg:flex-row  '>
      <div className=' w-full lg:w-[700px]  bg-blue-900 mt-[30px]  text-white'>
           <h1 className='flex   font-bold text-[40px] p-12 '>Working with Almarai</h1>
           <p className='p-6'>

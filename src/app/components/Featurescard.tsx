@@ -62,7 +62,7 @@ const FeatureCards = () => {
     < >
     <div className="grid grid-cols-1 gap-6  md:grid-cols-3  md:gap-7 p-4 lg:p-0 ">
       {features.map((feature, index) => (
-        <div key={index} className="bg-blue-500 text-white min-w-[500px]  p-8 lg:mx-4 lg:p-4   w-full lg:w-[400px] h-[250px]">
+        <div key={index} className="bg-blue-500 text-white   p-8 lg:mx-4 lg:p-4   w-full lg:w-[400px] h-[250px]">
           <div className="flex ' mb-4">
             {feature.icon}
             <h3 className="text-xl font-bold ">{feature.title}</h3>

@@ -3,7 +3,7 @@ import React from 'react'
 
 export const Almari = () => {
   return (
-    <div className="flex flex-col justify-center items-center mt-10 min-w-[500px] ">
+    <div className="flex flex-col justify-center items-center mt-10  ">
    <Image src={'/18-1.webp'} alt="logo" width={500} height={500} className=" md:mx-[400px]"/>
 
    <div className="mx-6 sm:text-xs :w-[300px] lg:w-full lg:text-2xl">Although there is information suggesting that Al-Mrai can assist with work visas for potential employees in Saudi Arabia, and Canada, the details can be difficult to navigate. :</div>
