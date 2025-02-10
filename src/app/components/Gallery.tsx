@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const Almarias= () => {
   return (
-    <div className='flex flex-col lg:flex-row'>
+    <div className='flex flex-col lg:flex-row min-w-[500px]'>
          <Image src={'/one.jpeg'} alt='logo' width={700} height={700} className=''/>
      <div className=' w-full   lg:w-[700px]  bg-blue-900   text-white'>
           

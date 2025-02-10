@@ -89,7 +89,7 @@ const TestimonialCarousel = () => {
           onMouseEnter={stopAutoplay}
           onMouseLeave={startAutoplay}
         >
-          <div className="overflow-hidden w-[450px] lg:w-[800px]" ref={emblaRef}>
+          <div className="overflow-hidden min-w-[500px] w-[450px] lg:w-[800px]" ref={emblaRef}>
             <div className="flex">
               {testimonials.map((testimonial) => (
                 <div key={testimonial.id} className={`flex-[0_0_100%] relative fade-transition`} style={{ opacity: fadeOpacity }}>
