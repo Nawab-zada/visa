@@ -21,7 +21,7 @@ const MouthwateringMeals = () => {
             height={200} // ✅ Add height
             className="w-full h-40 sm:h-48 lg:h-32"
           />
-          <h3 className="text-blue-500 font-bold mt-2">Yogurt</h3>
+          <h3 className="text-white font-bold mt-2 text-center">Yogurt</h3>
         </div>
 
         <div className="p-4">
@@ -32,7 +32,7 @@ const MouthwateringMeals = () => {
             height={200}
             className="w-full h-40 sm:h-48 lg:h-32"
           />
-          <h3 className="text-blue-500 font-bold mt-2">Creamy Chicken</h3>
+          <h3 className="text-white font-bold mt-2 text-center">Creamy Chicken</h3>
         </div>
 
         <div className="p-4">
@@ -43,7 +43,7 @@ const MouthwateringMeals = () => {
             height={200}
             className="w-full h-40 sm:h-48 lg:h-32"
           />
-          <h3 className="text-blue-500 font-bold mt-2">Pumpkin Soup</h3>
+          <h3 className="text-white text-center font-bold mt-2">Pumpkin Soup</h3>
         </div>
       </div>
     </div>
