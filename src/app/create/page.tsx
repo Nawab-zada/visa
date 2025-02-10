@@ -46,7 +46,7 @@ export default function Jobs() {
     try {
       await sendEmail(job.ownerEmail, job); // Send email to job owner
       alert(`Application for ${job.title} has been sent!`);
-    } catch (error) { 
+    } catch { 
       alert("Error sending email. Please try again.");
     }
 
