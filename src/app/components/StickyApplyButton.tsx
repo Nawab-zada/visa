@@ -9,12 +9,13 @@ export default function StickyApplyButton() {
   return (
     <motion.button
       onClick={() => router.push("/create")}
-      initial={{ x: 100, opacity: 0 }}
+      initial={{ x: 120, opacity: 0 }}
       animate={{ x: 0, opacity: 1 }}
       transition={{ duration: 0.5 }}
-      className="fixed right-0 top-1/2 transform -translate-y-1/2 bg-blue-600 text-white px-6 py-3 rounded-l-lg flex items-center gap-2 shadow-lg hover:bg-blue-700 transition-all"
+      className="fixed right-0 top-1/2 -translate-y-1/2 bg-blue-600 text-white px-6 py-3 md:px-4 md:py-2 text-lg md:text-sm rounded-l-lg flex items-center gap-2 shadow-lg hover:bg-blue-700 transition-all"
     >
-      Apply Now <FaArrowRight />
+      <span className="hidden sm:inline">Apply Now</span> 
+      <FaArrowRight className="text-xl md:text-base" />
     </motion.button>
   );
 }
