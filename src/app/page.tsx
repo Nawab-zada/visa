@@ -10,12 +10,14 @@ import Almarias from "./components/Gallery";
 import ProfessionalCards from "./components/Professionalcards";
 import Footer from "./components/Footer";
 import StickyApplyButton from "./components/StickyApplyButton";
+import Almaraipic from "./components/Almaraipic";
 
 export default function Home() {
  
   return (
     
     <div>
+      <Almaraipic/>
       <TestimonialCarousel/>
       <Almaricarer/>
       <FeatureCards/>
