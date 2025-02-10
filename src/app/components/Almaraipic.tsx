@@ -3,7 +3,7 @@ import React from 'react';
 
 const Almaraipic = () => {
   return (
-    <div className="relative w-full h-[100px] lg:w-[1400px]">
+    <div className="relative w-full h-[100px] lg:hidden">
       <Image 
         src="/Capture.png" 
         alt="capture" 
