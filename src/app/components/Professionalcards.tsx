@@ -23,7 +23,7 @@ const ProfessionalCards = () => {
   
   return (
     <div className='min-w-[500px] '>
-      <p className=' w-full lg:flex flex-col justify-center items-center mt-20 text-[40px] min-w-[600px]'>
+      <p className=' w-full lg:flex flex-col justify-center items-center mt-20 text-[40px] min-w-[500px]'>
         Training development
         <div className='bg-yellow-400 h-1 w-[160px]'></div>
       </p>
