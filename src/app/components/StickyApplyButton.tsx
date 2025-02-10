@@ -10,7 +10,7 @@ export default function StickyApplyButton() {
     <motion.button
       onClick={() => router.push("/create")}
      
-      className="fixed right-10 lg:right-0 top-1/2  bg-blue-600 text-white  md:px-4 md:py-2 text-lg md:text-sm rounded-l-lg flex items-center gap-2 shadow-lg hover:bg-blue-700 transition-all"
+      className="fixed right-20 lg:right-0 top-1/2  bg-blue-600 text-white  md:px-4 md:py-2 text-lg md:text-sm rounded-l-lg flex items-center gap-2 shadow-lg hover:bg-blue-700 "
     >
       <span className=" ">Apply Now</span> 
       <FaArrowRight className="text-xl md:text-base" />
