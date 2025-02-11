@@ -8,7 +8,7 @@ const Almaraipic = () => {
         src="/Capture.png" 
         alt="capture" 
         layout="intrinsic" 
-        width={600} 
+        width={660} 
         height={100} 
         className="object-contain"
       />
