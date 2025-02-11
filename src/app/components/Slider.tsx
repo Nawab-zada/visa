@@ -85,7 +85,7 @@ const TestimonialCarousel = () => {
       <div className='flex flex-col lg:flex-row'>
         {/* Testimonial Carousel */}
         <div 
-          className="  relative  sm:w-[480] h-[500px] w-full md:[1000px]  flex bg-blue-800 lg:h-[800px] lg:py-11"
+          className="  relative  sm:w-[480px] h-[500px] w-full md:[1000px]  flex bg-blue-800 lg:h-[800px] lg:py-11 lg:w-1/2"
           onMouseEnter={stopAutoplay}
           onMouseLeave={startAutoplay}
         >
