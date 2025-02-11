@@ -10,7 +10,7 @@ export default function RecruitmentProcess() {
   ]
 
   return (
-    <div className="w-full lg:w-full bg-[#99cc00] py-8 md:py-16px-4 md:w-[1030px] sm:w-[600px]   lg:h-[300px] sm:h-[600px] mt-10 ">
+    <div className="w-full lg:w-full bg-[#99cc00] py-8 md:py-16px-4 md:w-[800px] sm:w-[600px]   lg:h-[300px] sm:h-[600px] mt-10 ">
       <div className="max-w-xs sm:max-w-2xl md:max-w-4xl mx-auto">
         <h2 className="text-1xl sm:text-3xl md:text-1xl font-bold text-white text-center mb-8 md:mb-14 font-sans">
           Recruitment process to get hired
