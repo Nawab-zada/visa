@@ -22,12 +22,12 @@ const ProfessionalCards = () => {
   ];
   
   return (
-    <div className='sm:w-[460px]  lg:w-full '>
-      <p className=' w-full lg:w-full lg:flex flex-col justify-center items-center mt-20 text-[40px] sm:w-[400px] sm:mx-10'>
+    <div className='sm:w-[600px]  md:w-[900px]    lg:w-full '>
+      <p className=' w-full lg:w-full lg:flex flex-col justify-center items-center mt-20 text-[40px] '>
         Training development
-        <div className='bg-yellow-400 h-1 w-[160px] sm:mx-20'></div>
+        <div className='bg-yellow-400 h-1 w-[160px] '></div>
       </p>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4  shadow-2xl">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:w-full shadow-2xl">
         {cardData.map((card, index) => (
           <Card key={index} className="hover: transition-shadow">
             <CardHeader>

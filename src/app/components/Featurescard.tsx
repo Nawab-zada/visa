@@ -60,7 +60,7 @@ const features = [
 const FeatureCards = () => {
   return (
     < >
-    <div className="grid grid-cols-1 gap-6  md:grid-cols-3  md:gap-7 p-4 lg:p-0 ">
+    <div className="grid grid-cols-1 gap-6 md:w-[900px] lg:w-full  md:grid-cols-3  md:gap-7 p-4 lg:p-0 ">
       {features.map((feature, index) => (
         <div key={index} className="bg-blue-500 text-white sm:w-[430px]   p-8 lg:mx-4 lg:p-4   w-full lg:w-[400px] h-[250px]">
           <div className="flex ' mb-4">
@@ -72,7 +72,7 @@ const FeatureCards = () => {
       ))}
       
     </div>
-    <div className='flex justify-center items-center p-8 mx-3 w-full sm:w-[480px] lg:w-full lg:text-[35px]'>Almarai Company Visa 2024 - Almarai Jobs Saudi Arabia, Canada 2024</div>
+    <div className=' md:w-[1050px]  flex justify-center items-center p-8 mx-3 w-full sm:w-[480px] lg:w-full lg:text-[35px]'>Almarai Company Visa 2024 - Almarai Jobs Saudi Arabia, Canada 2024</div>
     </>
   );
 };
