@@ -85,11 +85,11 @@ const TestimonialCarousel = () => {
       <div className='flex flex-col lg:flex-row'>
         {/* Testimonial Carousel */}
         <div 
-          className=" min-w-[450] relative mx-auto h-[500px] w-full md:[1000px]  flex bg-blue-800 lg:h-[800px] lg:py-11"
+          className="  relative  sm:w-[480] h-[500px] w-full md:[1000px]  flex bg-blue-800 lg:h-[800px] lg:py-11"
           onMouseEnter={stopAutoplay}
           onMouseLeave={startAutoplay}
         >
-          <div className="overflow-hidden  md:w-[1000px] w-[450px] lg:w-[800px]" ref={emblaRef}>
+          <div className="overflow-hidden   md:w-[1000px] w-[450px] lg:w-[800px]" ref={emblaRef}>
             <div className="flex">
               {testimonials.map((testimonial) => (
                 <div key={testimonial.id} className={`flex-[0_0_100%] relative fade-transition`} style={{ opacity: fadeOpacity }}>

@@ -22,10 +22,10 @@ const ProfessionalCards = () => {
   ];
   
   return (
-    <div className='min-w-[450px] '>
-      <p className=' w-full lg:flex flex-col justify-center items-center mt-20 text-[40px] '>
+    <div className='sm:w-[480px] '>
+      <p className=' w-full lg:flex flex-col justify-center items-center mt-20 text-[40px] sm:w-[400px] sm:mx-10'>
         Training development
-        <div className='bg-yellow-400 h-1 w-[160px]'></div>
+        <div className='bg-yellow-400 h-1 w-[160px] sm:mx-20'></div>
       </p>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4  shadow-2xl">
         {cardData.map((card, index) => (

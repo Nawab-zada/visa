@@ -3,7 +3,7 @@ import Image from "next/image"; // ✅ Import Next.js Image component
 
 const MouthwateringMeals = () => {
   return (
-    <div className="text-black px-8 py-12 min-w-[450]  w-full lg:w-[900px] lg:h-[800px] bg-blue-800  md:w-[1200px]">
+    <div className="text-black px-8 py-12  sm:w-[480px]  w-full lg:w-[900px] lg:h-[800px] bg-blue-800  md:w-[1200px]">
       <h2 className="lg:text-3xl font-bold mb-6 mx-8 lg:mt-[260px]">
         Mouthwatering Meals For The Whole Family To Enjoy!
       </h2>
@@ -12,7 +12,7 @@ const MouthwateringMeals = () => {
         PEOPLE are our most important asset. Attracting the right people, training them, and providing the resources they need to satisfy the requirements of a world-class food company, continues to be a major priority of Almarai.
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-6">
         <div className="p-4">
           <Image
             src="/yougurt.png"
