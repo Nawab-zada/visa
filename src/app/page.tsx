@@ -10,7 +10,7 @@ import Almarias from "./components/Gallery";
 import ProfessionalCards from "./components/Professionalcards";
 import Footer from "./components/Footer";
 
-import Almaraipic from "./components/Almaraipic";
+
 
 export default function Home() {
  
