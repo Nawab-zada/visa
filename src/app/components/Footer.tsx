@@ -8,9 +8,9 @@ import Link from "next/link"
 
 export default function Footer() {
   return (
-    <footer className="w-full  sm:w-[480px]">
+    <footer className="w-full lg:w-full  sm:w-[460px] sm:overflow-hidden ">
       {/* Contact Form Section */}
-      <div className="bg-[#2642c0] text-white py-12 px-4">
+      <div className="bg-[#2642c0] text-white  px-4">
         <div className="max-w-md mx-auto space-y-6">
           <h2 className="text-3xl font-bold mb-8">Contact Us</h2>
           <form className="space-y-4">

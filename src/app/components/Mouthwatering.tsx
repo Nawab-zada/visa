@@ -3,7 +3,7 @@ import Image from "next/image"; // ✅ Import Next.js Image component
 
 const MouthwateringMeals = () => {
   return (
-    <div className="text-black px-8 py-12  sm:w-[480px]  w-full lg:w-[900px] lg:h-[800px] bg-blue-800  md:w-[1200px]">
+    <div className="text-black px-8 py-12  sm:w-[460px]  w-full lg:w-[900px] lg:h-[800px] bg-blue-800  md:w-[1200px]">
       <h2 className="lg:text-3xl font-bold mb-6 mx-8 lg:mt-[260px]">
         Mouthwatering Meals For The Whole Family To Enjoy!
       </h2>
