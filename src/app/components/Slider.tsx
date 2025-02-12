@@ -82,10 +82,10 @@ const TestimonialCarousel = () => {
       
 
       {/* Container for carousel and MouthwateringMeals */}
-      <div className=' overflow-hidden flex flex-col lg:flex-row'>
+      <div className=' overflow-hidden flex flex-col lg:flex-row mt-16'>
         {/* Testimonial Carousel */}
         <div 
-          className="  overflow-hidden relative  sm:w-[660px] h-[500px] w-full md:w-[1000px]  flex bg-blue-800 lg:h-[800px] lg:py-11 lg:w-1/2"
+          className="  overflow-hidden relative   sm:w-[660px] h-[500px] w-full md:w-[1000px]  flex bg-blue-800 lg:h-[800px] lg:py-11 lg:w-1/2"
           onMouseEnter={stopAutoplay}
           onMouseLeave={startAutoplay}
         >
@@ -94,7 +94,7 @@ const TestimonialCarousel = () => {
               {testimonials.map((testimonial) => (
                 <div key={testimonial.id} className={`flex-[0_0_100%] relative fade-transition`} style={{ opacity: fadeOpacity }}>
                   <div className="flex flex-col items-center justify-center">
-                    <div className="relative mb-8 group">
+                    <div className="relative mb-5 group">
                       <Image
                         src={testimonial.image}
                         alt={testimonial.author}
