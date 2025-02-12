@@ -2,6 +2,7 @@
 import { useState, FormEvent } from "react";
 import { motion } from "framer-motion";
 import { sendEmail } from "../components/resend";
+import Image from "next/image";
 
 // Define TypeScript Types
 interface Job {
@@ -135,6 +136,9 @@ export default function Jobs() {
             </motion.div>
           ))
         )}
+      </div>
+      <div className="flex justify-center items-center mt-4">
+          <Image src={'/jobvaceny.png'} alt="logo" width={500} height={400}/>
       </div>
     </div>
   );
