@@ -9,6 +9,8 @@ import Almaria from "./components/W-almaria";
 import Almarias from "./components/Gallery";
 import ProfessionalCards from "./components/Professionalcards";
 import Footer from "./components/Footer";
+import StickyApplyButton from "./components/Stickybutton";
+import Jobvacency from "./components/Jobvacency";
 
 
 
@@ -24,11 +26,13 @@ export default function Home() {
       <Almaricarer/>
       <FeatureCards/>
       <Almari/>
+      <Jobvacency/>
       <RecruitmentProcess/>
       <Almaria/>
       <Almarias/>
       <ProfessionalCards/>
       <Footer/> 
+      <StickyApplyButton/>
       
     </div>
   );
