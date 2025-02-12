@@ -8,7 +8,7 @@ import Link from "next/link"
 
 export default function Footer() {
   return (
-    <footer className="w-full md:w-[800px] lg:w-full  sm:w-[660px] sm:overflow-hidden ">
+    <footer className=" overflow-hidden w-full md:w-[1000px] lg:w-full  sm:w-[660px] sm:overflow-hidden ">
       {/* Contact Form Section */}
       <div className="bg-[#2642c0] text-white  px-4">
         <div className="max-w-md mx-auto space-y-6">

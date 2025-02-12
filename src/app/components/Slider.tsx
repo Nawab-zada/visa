@@ -82,10 +82,10 @@ const TestimonialCarousel = () => {
       
 
       {/* Container for carousel and MouthwateringMeals */}
-      <div className='flex flex-col lg:flex-row'>
+      <div className=' overflow-hidden flex flex-col lg:flex-row'>
         {/* Testimonial Carousel */}
         <div 
-          className="  relative  sm:w-[660px] h-[500px] w-full md:w-[800px]  flex bg-blue-800 lg:h-[800px] lg:py-11 lg:w-1/2"
+          className="  overflow-hidden relative  sm:w-[660px] h-[500px] w-full md:w-[1000px]  flex bg-blue-800 lg:h-[800px] lg:py-11 lg:w-1/2"
           onMouseEnter={stopAutoplay}
           onMouseLeave={startAutoplay}
         >
