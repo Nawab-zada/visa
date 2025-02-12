@@ -41,7 +41,7 @@ export default function Footer() {
       </div>
 
       {/* Social Links Section */}
-      <div className="bg-black text-white py-8 px-4">
+      <div className="bg-black text-white py-8 px-4 overflow-hidden">
         <div className="max-w-md mx-auto">
           <div className="flex justify-center space-x-6 mb-4">
             <Link href="#" className="hover:opacity-80">
