@@ -34,8 +34,8 @@ export default function Navbar() {
       {menuOpen && (
         <div className="md:hidden border-red-500  z-10 bg-blue-900 shadow-md flex flex-col items-center space-y-4 py-4">
           <Link href="/" className="text-black hover:text-white">Home</Link>
-          <Link href="/about" className="text-black hover:text-white">About</Link>
-          <Link href="/walmarai" className="text-black hover:text-white">Apply</Link>
+          <Link href="/walmarai" className="text-black hover:text-white">About</Link>
+          <Link href="/create" className="text-black hover:text-white">Apply</Link>
           <Link href="/jobs" className="text-black hover:text-white ">Job Available</Link>
         </div>
       )}
