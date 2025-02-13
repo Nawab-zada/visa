@@ -7,17 +7,17 @@ const ProfessionalCards = () => {
     {
       title: "Laboratory Research",
       description: "Scientists conducting careful laboratory work",
-      imageUrl: "/Development.webp"
+      imageUrl: "/lab.png"
     },
     {
-      title: "Professional Collaboration",
+      title: "workplace",
       description: "Businessmen shaking hands in a professional setting",
-      imageUrl: "/044.webp"
+      imageUrl: "/work.png"
     },
     {
       title: "Workplace Interaction",
       description: "Colleagues engaging in a friendly conversation",
-      imageUrl: "/033.webp"
+      imageUrl: "/interaction.png"
     }
   ];
   

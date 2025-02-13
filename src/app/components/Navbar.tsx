@@ -17,9 +17,9 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
           <Link href="/" className="hover:text-black text-white">Home</Link>
-          <Link href="/about" className="hover:text-blue-600 text-white">About</Link>
-          <Link href="/apply" className="hover:text-blue-600 text-white">Apply</Link>
-          <Link href="/job-available" className="hover:text-blue-600 text-white">Job Available</Link>
+          <Link href="/walmarai" className="hover:text-blue-600 text-white">About</Link>
+          <Link href="/create" className="hover:text-blue-600 text-white">Apply</Link>
+          <Link href="/jobs" className="hover:text-blue-600 text-white">Job Available</Link>
         </div>
 
         {/* Mobile Menu Button */}

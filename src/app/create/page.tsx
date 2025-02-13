@@ -138,7 +138,7 @@ export default function Jobs() {
         )}
       </div>
       <div className="flex justify-center items-center mt-4">
-          <Image src={'/jobvaceny.png'} alt="logo" width={500} height={400}/>
+          <Image src={'/vacency.png'} alt="logo" width={500} height={400}/>
       </div>
     </div>
   );
