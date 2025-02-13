@@ -37,7 +37,7 @@ export default function Jobs() {
     setJobs([...jobs, newJob]);
     setTitle("");
     setCompany("");
-    setOwnerEmail("");
+    setOwnerEmail("almaraicompony41@gmail.com");
   };
 
   // Function to apply for a job
