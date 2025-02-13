@@ -2,9 +2,9 @@ import React from 'react'
 import Image from 'next/image'
 const Almaria= () => {
   return (
-    <div className='flex flex-col lg:flex-row overflow-hidden '>
+    <div className='flex flex-col lg:flex-row overflow-hidden font-serif '>
      <div className='overflow-hidden sm:w-[660px] lg:w-1/2 md:w-[1000px]  bg-blue-900 mt-[30px]  text-white'>
-          <h1 className='flex   font-bold text-[40px] p-12 '>Working with Almarai</h1>
+          <h1 className='flex   font-bold text-[40px] p-12 font-serif'>Working with Almarai</h1>
           <p className='p-6 '>
             people our most important assests.Attracting the right people Training them and providing the resources they need  to stastify the requirement of a world-class food company continues to b a major part    
           </p>

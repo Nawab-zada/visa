@@ -9,7 +9,7 @@ export default function StickyApplyButton() {
   };
 
   return (
-    <div className="fixed right-4 bottom-20 md:bottom-20 lg:bottom-24 z-50">
+    <div className=" font-serif fixed right-4 bottom-20 md:bottom-20 lg:bottom-24 z-50">
       <button
         onClick={handleApplyClick}
         className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold shadow-md hover:bg-blue-700"

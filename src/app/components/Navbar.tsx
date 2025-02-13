@@ -12,10 +12,10 @@ export default function Navbar() {
     <nav className="bg-blue-900 shadow-md w-full fixed top-0 left-0 z-50">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
-        <div className="text-2xl font-bold text-white ">Almarai</div>
+        <div className="text-2xl font-bold text-white font-serif ">Almarai</div>
         
         {/* Desktop Menu */}
-        <div className="hidden md:flex space-x-6">
+        <div className="hidden md:flex space-x-6 font-serif">
           <Link href="/" className="hover:text-black text-white">Home</Link>
           <Link href="/walmarai" className="hover:text-blue-600 text-white">About</Link>
           <Link href="/create" className="hover:text-blue-600 text-white">Apply</Link>
@@ -32,7 +32,7 @@ export default function Navbar() {
       
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="md:hidden border-red-500  z-10 bg-blue-900 shadow-md flex flex-col items-center space-y-4 py-4">
+        <div className="md:hidden border-red-500 font-serif  z-10 bg-blue-900 shadow-md flex flex-col items-center space-y-4 py-4">
           <Link href="/" className="text-black hover:text-white">Home</Link>
           <Link href="/walmarai" className="text-black hover:text-white">About</Link>
           <Link href="/create" className="text-black hover:text-white">Apply</Link>

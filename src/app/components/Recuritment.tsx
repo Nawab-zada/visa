@@ -10,10 +10,10 @@ export default function RecruitmentProcess() {
   ]
 
   return (
-    <div className=" overflow-hidden  lg:ml-20 w-full lg:w-[1200px] bg-[#99cc00] py-8 md:py-16px-4 md:w-[1000px] sm:w-[600px]   lg:h-[300px] sm:h-[600px] mt-10 ">
+    <div className=" font-serif overflow-hidden  lg:ml-20 w-full lg:w-[1200px] bg-[#99cc00] py-8 md:py-16px-4 md:w-[1000px] sm:w-[600px]   lg:h-[300px] sm:h-[600px] mt-10 ">
       <div className="   
       ">
-        <h2 className=" text-1xl sm:text-3xl md:text-1xl font-bold text-white text-center mb-8 md:mb-14 font-sans">
+        <h2 className="  text-1xl sm:text-3xl md:text-1xl font-bold text-white text-center mb-8 md:mb-14 font-sans">
           Recruitment process to get hired
         </h2>
 

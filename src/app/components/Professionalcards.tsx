@@ -22,7 +22,7 @@ const ProfessionalCards = () => {
   ];
   
   return (
-    <div className=' overflow-hidden sm:w-[660px]  md:w-[1000px]    lg:w-full '>
+    <div className=' overflow-hidden sm:w-[660px]  md:w-[1000px]    lg:w-full font-serif '>
       <p className=' w-full lg:w-full lg:flex flex-col justify-center items-center mt-20 text-[40px] '>
         Training development
         <div className='bg-yellow-400 h-1 w-[160px] '></div>

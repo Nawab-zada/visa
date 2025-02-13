@@ -15,7 +15,7 @@ export function ProcessStep({ number, title, icon: Icon, isLast }: ProcessStepPr
         <div className="absolute -top-3 md:-top-4 left-1/2 -translate-x-1/2 bg-[#1a4d1a] text-white rounded-full w-5 h-5 md:w-6 md:h-6 flex items-center justify-center text-xs md:text-sm">
           {number}
         </div>
-        <div className="bg-white rounded-full w-16 h-16 md:w-20 md:h-20 flex items-center justify-center">
+        <div className="bg-blue-600 rounded-full w-16 h-16 md:w-20 md:h-20 flex items-center justify-center">
           <Icon className="w-6 h-6 md:w-8 md:h-8 text-[#1a4d1a]" />
         </div>
         {!isLast && (
