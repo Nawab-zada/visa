@@ -68,7 +68,7 @@ export default function Footer() {
       {/* WhatsApp Button */}
       
       <Link
-        href="https://wa.me/+966562768042"
+        href="https://wa.me/+966599916876"
         className="fixed bottom-4 left-4 bg-[#25D366] p-3 rounded-full hover:opacity-90 transition-opacity"
         target="_blank"
         rel="noopener noreferrer"

@@ -22,8 +22,8 @@ const ProfessionalCards = () => {
   ];
   
   return (
-    <div className=' overflow-hidden sm:w-[660px]  md:w-[1000px]lg:w-full font-serif '>
-      <p className=' w-full lg:w-full lg:flex flex-col justify-center items-center mt-20 text-[30px] '>
+    <div className=' overflow-hidden sm:w-[660px] lg:w-full  md:w-[1000px]lg:w-full font-serif '>
+      <p className=' w-full  lg:flex flex-col justify-center items-center mt-20 text-[30px] '>
         Training development
        
       </p>
