@@ -72,7 +72,7 @@ const FeatureCards = () => {
       ))}
       
     </div>
-    <div className='font-serif md:w-[1050px]  flex justify-center items-center p-8 mx-3 w-full sm:w-[660px] lg:w-full lg:text-[35px]'>Almarai Company Visa 2024 - Almarai Jobs Saudi Arabia, Canada 2024</div>
+    <div className='font-serif   flex justify-center items-center p-8 mx-3 w-full sm:w-[660px] lg:w-full lg:text-[35px]'>Almarai Company Visa 2024 - Almarai Jobs Saudi Arabia, Canada 2024</div>
     </>
   );
 };
