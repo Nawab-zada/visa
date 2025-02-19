@@ -22,19 +22,19 @@ const ProfessionalCards = () => {
   ];
   
   return (
-    <div className=' overflow-hidden sm:w-[660px] lg:w-full  md:w-[1000px]lg:w-full font-serif '>
-      <p className=' w-full  lg:flex flex-col justify-center items-center mt-20 text-[30px] '>
+    <div className=' overflow-hidden    md:w-[1000px] lg:w-full font-serif '>
+      <p className='  flex justify-center mb-3 mt-20 text-[30px] '>
         Training development
        
       </p>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:w-full shadow-2xl">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 md:w-full shadow-2xl">
         {cardData.map((card, index) => (
           <Card key={index} className="hover: transition-shadow">
-            <CardHeader>
+            <CardHeader className='mx-auto'>
               <CardTitle>{card.title}</CardTitle>
             </CardHeader>
             <CardContent>
-              <div className='h-[300px] rounded-2xl relative'>
+              <div className=' w-[280px] h-[300px] lg:w-[350px] rounded-2xl relative mx-auto'>
                 <Image 
                   src={card.imageUrl} 
                   alt={card.description} 

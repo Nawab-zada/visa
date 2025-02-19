@@ -78,18 +78,18 @@ const TestimonialCarousel = () => {
   }, [startAutoplay, stopAutoplay]);
 
   return (
-    <div>
+    <div className='min-w-2xl  md:w-[1000px] lg:w-full '>
       
-
+ 
       {/* Container for carousel and MouthwateringMeals */}
-      <div className=' overflow-hidden flex flex-col lg:flex-row mt-16'>
+      <div className=' overflow-hidden flex flex-col lg:flex-row mt-16 '>
         {/* Testimonial Carousel */}
         <div 
-          className="  overflow-hidden relative    h-[500px] w-full   flex bg-blue-800 lg:h-[800px] lg:py-11 "
+          className="  overflow-hidden relative lg:h-[510px]  lg:w-1/2    flex bg-blue-800  "
           onMouseEnter={stopAutoplay}
           onMouseLeave={startAutoplay}
         >
-          <div className="overflow-hidden    w-[450px] lg:w-[800px]" ref={emblaRef}>
+          <div className="overflow-hidden   " ref={emblaRef}>
             <div className="flex">
               {testimonials.map((testimonial) => (
                 <div key={testimonial.id} className={`flex-[0_0_100%] relative fade-transition`} style={{ opacity: fadeOpacity }}>
@@ -110,8 +110,8 @@ const TestimonialCarousel = () => {
           </div>
         </div>
 
-        {/* MouthwateringMeals Component */}
-        <MouthwateringMeals />
+        <div className='lg:w-1/2'>
+        <MouthwateringMeals /></div>
       </div>
     </div>
   );

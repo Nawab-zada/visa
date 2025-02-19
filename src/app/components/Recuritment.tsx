@@ -10,7 +10,7 @@ export default function RecruitmentProcess() {
   ]
 
   return (
-    <div className=" font-serif overflow-hidden  lg:ml-20 w-full lg:w-[1200px] bg-[#99cc00] py-8 md:py-16px-4 md:w-[1000px] sm:w-[600px]   lg:h-[300px] sm:h-[600px] mt-10 ">
+    <div className=" font-serif overflow-hidden   min-w-md   md:w-[1000px]  bg-[#99cc00]  lg:w-full  mt-6  ">
       <div className="   
       ">
         <h2 className="  text-1xl sm:text-3xl md:text-1xl font-bold text-white text-center mb-8 md:mb-14 font-sans">
@@ -24,7 +24,7 @@ export default function RecruitmentProcess() {
               key={index}
               className={`
                 w-[500px] md:w-1/4 
-                flex justify-center 
+                flex justify-center p-6
                 ${index !== steps.length - 1 ? " md:mb-0" : ""}
               `}
             >

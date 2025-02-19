@@ -33,7 +33,7 @@ export default function JobForm() {
   };
 
   return (
-    <div className="p-6 bg-white rounded-lg shadow-md max-w-md mx-auto">
+    <div className="p-[100px] bg-gray-400 rounded-lg shadow-md max-w-2xl mx-auto">
       <h2 className="text-xl font-bold mb-4">Job Application Form</h2>
       <form onSubmit={handleSubmit} className="flex flex-col gap-4">
         <input type="text" name="firstName" placeholder="First Name" onChange={handleChange} required className="p-2 border rounded-md" />

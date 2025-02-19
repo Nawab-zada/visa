@@ -35,13 +35,13 @@ export default function Footer() {
                 I accept the privacy policy
               </label>
             </div>
-            <Button className="w-full bg-zinc-800 hover:bg-zinc-700 text-white">Subscribe</Button>
+            <Button className="w-full  bg-zinc-800 hover:bg-zinc-700 text-white">Subscribe</Button>
           </form>
         </div>
       </div>
 
       {/* Social Links Section */}
-      <div className="bg-black text-white py-8 px-4 overflow-hidden">
+      <div className="bg-black text-white py-8 px-4 overflow-hidden mt-1">
         <div className="max-w-md mx-auto">
           <div className="flex justify-center space-x-6 mb-4">
             <Link href="#" className="hover:opacity-80">
