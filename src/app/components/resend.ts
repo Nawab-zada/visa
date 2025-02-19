@@ -1,12 +1,10 @@
 'use server';
 
 type JobDetails = {
-  jobTitle: string;
+  id: number;
+  title: string;
   company: string;
-  firstName: string;
-  lastName: string;
-  email: string;
-  contactNumber: string;
+  ownerEmail: string;
 };
 
 type EmailRecipient = string;
@@ -19,8 +17,8 @@ export const sendEmail = async (recipient: EmailRecipient, jobDetails: JobDetail
     await resend.emails.send({
       from: 'your-verified-email@example.com', // Replace this with your verified sender email
       to: recipient, // The email of the job owner
-      subject: `New Job Application for ${jobDetails.jobTitle}`,
-      text: `Someone has applied for the job "${jobDetails.jobTitle}" at "${jobDetails.company}". Please check your dashboard for details.`,
+      subject: `New Job Application for ${jobDetails.title}`,
+      text: `Someone has applied for the job "${jobDetails.title}" at "${jobDetails.company}". Please check your dashboard for details.`,
     });
     console.log('✅ Email sent successfully!');
   } catch (error) {
