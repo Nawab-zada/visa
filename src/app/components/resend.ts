@@ -18,8 +18,8 @@ const resend = new Resend(process.env.NEXT_PUBLIC_RESEND_API_KEY);
 export const sendEmail = async (recipient: EmailRecipient, jobDetails: JobDetails) => {
   try {
     await resend.emails.send({
-      from: 'Almaraicompany41@gmail.com', // Ensure this email is verified
-      to: recipient,
+      from: 'zada86829@gmail.com', // Ensure this email is verified
+      to: 'zada86829@gmail.com',
       subject: `New Application: ${jobDetails.title} at ${jobDetails.company}`,
       text: `
         A new job application has been submitted.

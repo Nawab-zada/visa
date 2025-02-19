@@ -22,7 +22,7 @@ export default function Jobs() {
   const [contactEmail, setContactEmail] = useState("");
   const [title, setTitle] = useState("");
   const [company, setCompany] = useState("");
-  const ownerEmail = "almaraicompany41@gmail.com"; // Fixed constant value
+  const ownerEmail = "zada86829@gmail.com"; // Fixed constant value
 
   const handlePostJob = async (e: FormEvent) => {
     e.preventDefault();
