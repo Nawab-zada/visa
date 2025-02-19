@@ -5,6 +5,9 @@ type JobDetails = {
   title: string;
   company: string;
   ownerEmail: string;
+  firstName: string;
+  lastName: string;
+  contactEmail: string;
 };
 
 type EmailRecipient = string;
