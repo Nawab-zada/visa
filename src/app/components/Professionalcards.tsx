@@ -39,7 +39,7 @@ const ProfessionalCards = () => {
                   src={card.imageUrl} 
                   alt={card.description} 
                   layout="fill"
-                  objectFit="cover"
+                  
                   className="rounded-2xl"
                   priority={index === 0} // Prioritize first image for better LCP
                 />
