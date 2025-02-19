@@ -1,3 +1,4 @@
+
 "use client";
 import { useState, FormEvent } from "react";
 import { motion } from "framer-motion";
@@ -21,11 +22,11 @@ export default function Jobs() {
   const [contactEmail, setContactEmail] = useState("");
   const [title, setTitle] = useState("");
   const [company, setCompany] = useState("");
-  const [ownerEmail, setOwnerEmail] = useState("almaraicompony41@gmail.com");
+  const ownerEmail = "almaraicompony41@gmail.com"; // Fixed constant value
 
   const handlePostJob = async (e: FormEvent) => {
     e.preventDefault();
-    if (!firstName || !lastName || !contactEmail || !title || !company || !ownerEmail) {
+    if (!firstName || !lastName || !contactEmail || !title || !company) {
       alert("Please fill in all fields.");
       return;
     }
@@ -41,34 +42,24 @@ export default function Jobs() {
     };
 
     setJobs([...jobs, newJob]);
-
-    // Send email to the owner
-    try {
-      await sendEmail(ownerEmail, {
-        id: newJob.id,
-        ownerEmail: newJob.ownerEmail,
-        title,
-        company,
-        firstName,
-        lastName,
-        contactEmail,
-      });
-      alert("Application submitted successfully!");
-    } catch (error) {
-      console.error("Error sending email:", error);
-      alert("Failed to send the application.");
-    }
-
     setFirstName("");
     setLastName("");
     setContactEmail("");
     setTitle("");
     setCompany("");
+
+    try {
+      await sendEmail(ownerEmail, newJob);
+      alert("Application sent successfully! ✅");
+    } catch (error) {
+      console.error("❌ Error sending email:", error);
+      alert("Failed to send email.");
+    }
   };
 
   return (
     <div className="bg-gray-100 min-h-screen py-10 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-md sm:max-w-lg md:max-w-2xl mx-auto bg-white shadow-lg rounded-lg p-6 sm:p-8">
+      <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-6 sm:p-8">
         <h1 className="text-3xl font-bold text-center text-blue-600 mb-6">
           Job Portal 🚀
         </h1>
@@ -140,3 +131,4 @@ export default function Jobs() {
     </div>
   );
 }
+
