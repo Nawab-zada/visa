@@ -61,7 +61,7 @@ export default function Jobs() {
     <div className="bg-gray-100 min-h-screen py-10 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-6 sm:p-8">
         <h1 className="text-3xl font-bold text-center text-blue-600 mb-6">
-          Job Portal 🚀
+          APPLICATION FORM
         </h1>
 
         <motion.form
