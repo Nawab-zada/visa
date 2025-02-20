@@ -1,80 +1,123 @@
-import React from 'react';
+import React from "react";
+import { 
+  FaHardHat, FaShieldAlt, FaCashRegister, FaTruck, FaUsers, 
+  FaPlug, FaBroom, FaConciergeBell, FaTools, FaCalculator, 
+  FaCar, FaShippingFast, FaBox, FaUtensils 
+} from "react-icons/fa";
 
 const features = [
   {
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
-      </svg>
-    ),
-    title: 'Experienced professionals',
-    description: 'Do you want to take your career to the next level?'
+    title: "Factory Worker",
+    description: "Work in a factory setting, handling machinery and production tasks.",
+    salary: "SAR 2500",
+    icon: <FaHardHat size={30} />,
   },
   {
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
-      </svg>
-    ),
-    title: '24/7 Support',
-    description: 'almarai will provide the 24 hour support'
+    title: "Security Guard",
+    description: "Ensure safety and security at company premises.",
+    salary: "SAR 3500",
+    icon: <FaShieldAlt size={30} />,
   },
   {
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
-      </svg>
-    ),
-    title: 'Cooperative Training',
-    description: 'Broaden your knowledge by applying acquired academic knowledge to real work experience.'
+    title: "Cashier",
+    description: "Manage transactions, handle cash, and assist customers.",
+    salary: "SAR 4000",
+    icon: <FaCashRegister size={30} />,
   },
   {
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14" />
-      </svg>
-    ),
-    title: '4 Million',
-    description: 'Almarai produces 4 million liters of milk a day, an average of 40 liters per cow per day, roughly double the European average.'
+    title: "Driver",
+    description: "Transport goods and employees safely to designated locations.",
+    salary: "SAR 3500",
+    icon: <FaTruck size={30} />,
   },
   {
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-      </svg>
-    ),
-    title: '9,000',
-    description: 'The largest food and beverages fleet in the Middle East. Almarai fleet includes more than 9,000 vehicles.'
+    title: "General Worker",
+    description: "Perform various labor tasks as required by the company.",
+    salary: "SAR 2400",
+    icon: <FaUsers size={30} />,
   },
   {
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0" />
-      </svg>
-    ),
-    title: '220,000',
-    description: 'Almarai products reaches 220,000 retail stores across 7 countries.'
-  }
+    title: "Electrician",
+    description: "Install, maintain, and repair electrical systems.",
+    salary: "SAR 3500",
+    icon: <FaPlug size={30} />,
+  },
+  {
+    title: "Cleaning Worker",
+    description: "Ensure cleanliness and hygiene in work areas.",
+    salary: "SAR 2100",
+    icon: <FaBroom size={30} />,
+  },
+  {
+    title: "Housekeeping",
+    description: "Maintain rooms and common areas clean and tidy.",
+    salary: "SAR 3000",
+    icon: <FaConciergeBell size={30} />,
+  },
+  {
+    title: "General Labour",
+    description: "Assist in various manual labor tasks within the company.",
+    salary: "SAR 3500",
+    icon: <FaUsers size={30} />,
+  },
+  {
+    title: "Technician",
+    description: "Repair and maintain company machinery and systems.",
+    salary: "SAR 3500",
+    icon: <FaTools size={30} />,
+  },
+  {
+    title: "Accountants",
+    description: "Manage financial records and transactions.",
+    salary: "SAR 6000",
+    icon: <FaCalculator size={30} />,
+  },
+  {
+    title: "Light Driver",
+    description: "Drive light vehicles for company operations.",
+    salary: "SAR 2500",
+    icon: <FaCar size={30} />,
+  },
+  {
+    title: "Delivery Driver",
+    description: "Deliver goods to customers in a timely manner.",
+    salary: "SAR 2500",
+    icon: <FaShippingFast size={30} />,
+  },
+  {
+    title: "Food Packing",
+    description: "Pack and prepare food products for distribution.",
+    salary: "SAR 2200",
+    icon: <FaBox size={30} />,
+  },
+  {
+    title: "Cooker",
+    description: "Prepare and cook meals according to company standards.",
+    salary: "SAR 3000",
+    icon: <FaUtensils size={30} />,
+  },
 ];
 
 const FeatureCards = () => {
   return (
-    < >
-    <div className="gap-4  grid grid-cols-1 gap-6 md:w-[1000px] lg:w-full font-serif md:p-10 md:grid-cols-2 lg:grid-cols-3  md:gap-7 p-10 lg:p-0 overflow-hidden">
-      {features.map((feature, index) => (
-        <div key={index} className="bg-blue-500 text-white    p-5 lg:mx-4 lg:p-4    h-[180px]">
-          <div className="flex ' mb-4">
+    <>
+              <p className="font-bold font-serif text-[30px] flex  justify-center items-center mt-2">Popular jobs categories</p>
+      <div className="grid grid-cols-1 gap-6 md:w-[1000px] lg:w-full font-serif md:p-10 md:grid-cols-2 lg:grid-cols-3 md:gap-7 p-10 lg:p-0 overflow-hidden">
+        {features.map((feature, index) => (
+          <div key={index} className="bg-blue-500 text-white  lg:mx-4 lg:p-6 h-[150px] flex flex-col justify-center items-center text-center">
             {feature.icon}
-            <h3 className="text-xl font-bold ">{feature.title}</h3>
+            <h3 className="text-xl font-bold mt-3">{feature.title}</h3>
+            <p className="mt-1">{feature.description}</p>
+            <p className="mt-2 font-bold">{feature.salary}</p>
           </div>
-          <p className=''>{feature.description}</p>
-        </div>
-      ))}
-      
-    </div>
-    <div className='font-serif   flex justify-center items-center   w-full md:ml-[100px] lg:w-full lg:text-[35px]'>Almarai Company Visa 2024 - Almarai Jobs Saudi Arabia, Canada 2024</div>
+        ))}
+      </div>
+      <div className="font-serif flex justify-center items-center w-full md:ml-[100px] lg:w-full lg:text-[35px] text-center mt-6">
+        Almarai Company Visa 2024 - Almarai Jobs Saudi Arabia, Canada 2024
+      </div>
     </>
   );
 };
 
 export default FeatureCards;
+

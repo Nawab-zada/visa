@@ -14,7 +14,7 @@ export default function StickyApplyButton() {
         onClick={handleApplyClick}
         className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold shadow-md hover:bg-blue-700"
       >
-        Apply Now
+        Emails Us
       </button>
     </div>
   );
