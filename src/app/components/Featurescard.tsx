@@ -112,9 +112,7 @@ const FeatureCards = () => {
           </div>
         ))}
       </div>
-      <div className="font-serif flex justify-center items-center w-full md:ml-[100px] lg:w-full lg:text-[35px] text-center mt-6">
-        Almarai Company Visa 2024 - Almarai Jobs Saudi Arabia, Canada 2024
-      </div>
+     
     </>
   );
 };

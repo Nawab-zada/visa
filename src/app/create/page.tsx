@@ -44,7 +44,7 @@ export default function JobForm() {
         <input type="email" name="email" placeholder="Email" onChange={handleChange} required className="p-2 border rounded-md" />
         <input type="text" name="contactNumber" placeholder="Contact Number" onChange={handleChange} required className="p-2 border rounded-md" />
         <input type="text" name="jobPosition" placeholder="Job Position" onChange={handleChange} required className="p-2 border rounded-md" />
-        <button type="submit" className="bg-blue-600 text-white p-2 rounded-md">Submit</button>
+        <button type="submit" className="bg-blue-600 text-white p-2 rounded-md">Send Email</button>
       </form>
     </div>
   );

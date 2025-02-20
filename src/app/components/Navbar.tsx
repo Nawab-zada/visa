@@ -22,7 +22,7 @@ export default function Navbar() {
           <Link href="/" className="hover:text-black text-white">Home</Link>
           <Link href="/walmarai" className="hover:text-blue-600 text-white">About</Link>
           <Link href="/create" className="hover:text-blue-600 text-white">Apply</Link>
-          <Link href="/jobs" className="hover:text-blue-600 text-white">Job Available</Link>
+         
         </div>
 
         {/* Mobile Menu Button */}
@@ -39,7 +39,7 @@ export default function Navbar() {
           <Link href="/" className="text-black hover:text-white">Home</Link>
           <Link href="/walmarai" className="text-black hover:text-white">About</Link>
           <Link href="/create" className="text-black hover:text-white">Apply</Link>
-          <Link href="/jobs" className="text-black hover:text-white ">Job Available</Link>
+          
         </div>
       )}
     </nav>
