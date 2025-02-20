@@ -34,7 +34,7 @@ const ProfessionalCards = () => {
               <CardTitle>{card.title}</CardTitle>
             </CardHeader>
             <CardContent>
-              <div className=' w-[280px] h-[300px] lg:w-[350px] rounded-2xl relative mx-auto'>
+              <div className=' w-[350px] h-[300px] lg:w-[350px] rounded-2xl relative mx-auto'>
                 <Image 
                   src={card.imageUrl} 
                   alt={card.description} 

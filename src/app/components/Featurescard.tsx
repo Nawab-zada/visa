@@ -17,7 +17,7 @@ const features = [
       </svg>
     ),
     title: '24/7 Support',
-    description: 'Defacto lingo est ipgay atinlay. Marquee selectus non gravyio incongruous feline nolo contendre.'
+    description: 'almarai will provide the 24 hour support'
   },
   {
     icon: (
@@ -60,9 +60,9 @@ const features = [
 const FeatureCards = () => {
   return (
     < >
-    <div className="  grid grid-cols-1 gap-6 md:w-[1000px] lg:w-full font-serif md:p-10 md:grid-cols-2 lg:grid-cols-3  md:gap-7 p-10 lg:p-0 overflow-hidden">
+    <div className="gap-4  grid grid-cols-1 gap-6 md:w-[1000px] lg:w-full font-serif md:p-10 md:grid-cols-2 lg:grid-cols-3  md:gap-7 p-10 lg:p-0 overflow-hidden">
       {features.map((feature, index) => (
-        <div key={index} className="bg-blue-500 text-white    p-4 lg:mx-4 lg:p-4    h-[250px]">
+        <div key={index} className="bg-blue-500 text-white    p-5 lg:mx-4 lg:p-4    h-[180px]">
           <div className="flex ' mb-4">
             {feature.icon}
             <h3 className="text-xl font-bold ">{feature.title}</h3>

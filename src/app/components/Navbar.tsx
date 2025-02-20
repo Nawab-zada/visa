@@ -4,15 +4,18 @@
 import { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import Link from "next/link";
-
+import Image from "next/image";
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-blue-900 shadow-md w-full fixed top-0 left-0 z-50">
+    <nav className="bg-blue-600 shadow-md w-full fixed top-0 left-0 z-50">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
-        <div className="text-2xl font-bold text-white font-serif ">Almarai</div>
+        <div className=" ">
+
+          <Image src={'/almarailogo.png'} alt="logo" width={70} height={100} className=""/>
+        </div>
         
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6 font-serif">
