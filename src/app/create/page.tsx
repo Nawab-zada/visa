@@ -34,7 +34,7 @@ export default function JobForm() {
 
   return (
     <div className="p-10 mt-10 w-full bg-gray-400 rounded-lg shadow-md max-w-2xl mx-auto">
-      <h2 className="text-xl font-bold mb-4">Emails us</h2>
+      <h2 className="text-xl font-bold mb-4">Apply now</h2>
       <p>Fill the fallowing fields and click the submit button</p>
       <h3>NOTE</h3>
          <p>Fill the job position according the provided popular jobs catogory</p>
@@ -44,7 +44,7 @@ export default function JobForm() {
         <input type="email" name="email" placeholder="Email" onChange={handleChange} required className="p-2 border rounded-md" />
         <input type="text" name="contactNumber" placeholder="Contact Number" onChange={handleChange} required className="p-2 border rounded-md" />
         <input type="text" name="jobPosition" placeholder="Job Position" onChange={handleChange} required className="p-2 border rounded-md" />
-        <button type="submit" className="bg-blue-600 text-white p-2 rounded-md">Send Email</button>
+        <button type="submit" className="bg-blue-600 text-white p-2 rounded-md">Apply now</button>
       </form>
     </div>
   );
