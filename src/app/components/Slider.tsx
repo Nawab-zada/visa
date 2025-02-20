@@ -2,7 +2,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
 import Image from 'next/image';
-import MouthwateringMeals from './Mouthwatering'; 
+
 
 const testimonials = [
   {
