@@ -27,14 +27,14 @@ const ProfessionalCards = () => {
         Training development
        
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 md:w-full shadow-2xl">
+      <div className="grid grid-cols-1 min-w-md md:grid-cols-3 lg:grid-cols-3 gap-4 md:w-full shadow-2xl">
         {cardData.map((card, index) => (
           <Card key={index} className="hover: transition-shadow">
-            <CardHeader className='mx-auto'>
+            <CardHeader className=''>
               <CardTitle>{card.title}</CardTitle>
             </CardHeader>
             <CardContent>
-              <div className=' w-[350px] h-[300px] lg:w-[350px] rounded-2xl relative mx-auto'>
+              <div className=' w-[300px] h-[300px] lg:w-[350px] rounded-2xl relative'>
                 <Image 
                   src={card.imageUrl} 
                   alt={card.description} 

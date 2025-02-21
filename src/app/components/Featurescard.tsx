@@ -44,6 +44,7 @@ const FeatureCards = () => {
 
   return (
     <div className="flex flex-col items-center w-full p-5">
+                        <h1 className="font-bold text-[20px] font-serif mb-3  ">Search Job</h1>
       {/* Search Bar & Salary Filter */}
       <div className="w-full max-w-md flex flex-col md:flex-row gap-4 items-center mb-6">
         <input 

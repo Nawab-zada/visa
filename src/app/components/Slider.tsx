@@ -11,7 +11,7 @@ const testimonials = [
     author: "Sarah Johnson",
     role: "Product Manager",
     company: "TechCorp",
-    image: "/one.jpeg"
+    image: "/almaraiworker.png"
   },
   {
     id: 2,
