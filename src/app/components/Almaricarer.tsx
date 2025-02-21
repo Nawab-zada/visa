@@ -16,8 +16,8 @@ const Almaricareer = () => {
 </p>
 
 <p className="font-serif text-lg leading-relaxed mt-4">
-  Whether you're just starting your career or you're an experienced professional looking for a change, Almarai offers a diverse range of roles, ensuring there is something for everyone. Explore <strong>careers in the Middle East dairy industry</strong> and seize the opportunity to grow with a company that values innovation, sustainability, and quality in every aspect of its operations.  
-  Almarai’s recruitment process is streamlined, making it easy to <strong>apply for Almarai jobs online</strong> and take the first step towards a fulfilling career in Saudi Arabia’s food industry. As the company continues to expand in 2025, it is an exciting time to join and shape the future of the industry.  
+  Whether you're just starting your career or you're an experienced professional looking for a change, Almarai offers a diverse range of roles ensuring there is something for everyone. Explore <strong>careers in the Middle East dairy industry</strong> and seize the opportunity to grow with a company that values innovation, sustainability, and quality in every aspect of its operations.  
+  Almarais recruitment process is streamlined, making it easy to <strong>apply for Almarai jobs online</strong> and take the first step towards a fulfilling career in Saudi Arabias food industry. As the company continues to expand in 2025, it is an exciting time to join and shape the future of the industry.  
 </p>
 
 <p className="font-serif text-lg font-semibold mt-4 text-center">
