@@ -9,8 +9,7 @@ const Almaricareer = () => {
         🌟 About Jobs at Almarai 🌟
       </h1>
 {/* Description */}
-{/* Description */}
-{/* Description */}
+
 <p className="font-serif text-lg leading-relaxed">
   Almarai is offering <strong>entry-level jobs</strong> and <strong>experienced professional jobs</strong> in the <strong>food industry in Saudi Arabia</strong>. As a leader in the <strong>Middle East dairy industry</strong>, Almarai provides exciting opportunities for growth. With a <strong>free visa and ticket</strong>, international applicants can easily relocate and benefit from <strong>competitive salaries</strong>.  
 

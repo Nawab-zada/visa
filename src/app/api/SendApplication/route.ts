@@ -17,7 +17,7 @@ export async function POST(req: Request) {
     // Email content
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: "owner@example.com", // Job owner's email
+      to: "almaraicompany41@gmail.com", // Job owner's email
       subject: `New Job Application for ${jobPosition}`,
       text: `
         Name: ${firstName} ${lastName}
