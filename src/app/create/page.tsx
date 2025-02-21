@@ -40,26 +40,22 @@ export default function JobForm() {
     e.preventDefault();
     setIsLoading(true);
 
-    try {
-      // Simulate loading for 3 seconds
-      await new Promise(resolve => setTimeout(resolve, 3000));
+    // Simulate loading for 3 seconds
+    await new Promise(resolve => setTimeout(resolve, 3000));
 
-      const response = await fetch("/api/SendApplication", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      });
+    const response = await fetch("/api/SendApplication", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
+    });
 
-      if (response.ok) {
-        alert("Application sent successfully!");
-      } else {
-        alert("Failed to send application.");
-      }
-    } catch (error) {
-      alert("An error occurred while sending the application.");
-    } finally {
-      setIsLoading(false);
+    if (response.ok) {
+      alert("Application sent successfully!");
+    } else {
+      alert("Failed to send application. Please try again.");
     }
+
+    setIsLoading(false);
   };
 
   return (
