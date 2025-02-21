@@ -3,7 +3,7 @@ import Image from 'next/image'
 const Almaria= () => {
   return (
     <div className='flex flex-col md:flex-col md:w-[1000px] lg:flex-row overflow-hidden font-serif lg:w-full '>
-     <div className='overflow-hidden lg:w-1/2  bg-blue-900 mt-[30px] h-[640px] lg:h-[700px] text-white'>
+     <div className='overflow-hidden lg:w-1/2  bg-blue-900 mt-[30px] h-[750px] lg:h-[700px] text-white'>
           <h1 className='flex   font-bold text-[30px] font-serif '>About Almarai</h1>
           <p className='p-2 '>
           Almarai is the largest dairy and food company in the Middle East, headquartered in Riyadh, Saudi Arabia. Established in 1977, Almarai has grown into a market leader in dairy, bakery, poultry, and infant nutrition products, serving millions of customers across the GCC.
@@ -12,7 +12,7 @@ With a strong commitment to quality, innovation, and sustainability, Almarai ope
 
 Almarai employs over 40,000 professionals across different sectors, offering excellent career opportunities in technical, logistics, security, and driving roles. The company provides free visa and ticket facilities for international workers, along with competitive salaries, accommodation, and other benefits.
 
-As a trusted brand with global recognition, Almarai continues to expand and innovate, making it a great place to build a successful career.
+
 
 Join Almarai today and become part of a world-class team driving the future of the food industry!   
           </p>
