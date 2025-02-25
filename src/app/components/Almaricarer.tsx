@@ -11,9 +11,8 @@ const Almaricareer = () => {
 {/* Description */}
 
 <p className="font-serif text-lg leading-relaxed">
-  Almarai is offering <strong>entry-level jobs</strong> and <strong>experienced professional jobs</strong> in the <strong>food industry in Saudi Arabia</strong>. As a leader in the <strong>Middle East dairy industry</strong>, Almarai provides exciting opportunities for growth. With a <strong>free visa and ticket</strong>, international applicants can easily relocate and benefit from <strong>competitive salaries</strong>.  
-
-  <strong>Apply for Almarai jobs online</strong> and secure your place in <strong>Almarai jobs 2025</strong>. Join one of the top <strong>online recruiting companies</strong> today!  
+  Almarai is offering <strong>jobs in Saudi Arabia for Pakistani</strong> and <strong>Saudi Arabia job vacancies 2025</strong> in the <strong>latest jobs in Saudi Arabia</strong>. As a leader in the <strong>Almarai hiring in Saudi Arabia</strong>, Almarai provides exciting opportunities for growth. With a <strong>Almarai job vacancies in Saudi Arabia</strong>, international applicants can easily relocate and benefit from <strong>Saudi Arabia jobs for Indian workers</strong>. <strong>driver jobs</strong>, <strong>Saudi Arabia driver jobs</strong>, and <strong>jobs in Saudi Arabia</strong> are also available for those <strong>hiring in Saudi Arabia</strong>.
+  <strong>Apply for Almarai jobs online</strong> and secure your place in <strong>Almarai jobs 2025</strong>. Join one of the top <strong>online recruiting companies</strong> today.  
 </p>
 
 
